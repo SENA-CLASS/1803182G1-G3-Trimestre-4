@@ -1,0 +1,18 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Çô­ûÿÿÿÿ8ÑÄ×¶Ú-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌíÖİùÿÿÿÿ8¤¿è¶Ú-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(£µ‚ÿùÿÿÿÿ8ş…¢·Ú-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡ãŠëÿÿÿÿÿ8¹Ë¶Ú-
+@squid:S1659""Declare "num7" on a separate line.(Áõïá8¨Ş·Ú-
+psquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒíè8“óÆ·Ú-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú¡ôİøÿÿÿÿ8ñà»¶Ú-
+Usquid:S1854""8Remove this useless assignment to local variable "asdf".(î™…P8¤«¯·Ú-
+Fsquid:S1481"")Remove this unused "asdf" local variable.(î™…P8¤«¯·Ú-
+Wsquid:S1854$"9Remove this useless assignment to local variable "Short".(ƒíè8°êÄ·Ú-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚»åü8Ç¦Ÿ·Ú-

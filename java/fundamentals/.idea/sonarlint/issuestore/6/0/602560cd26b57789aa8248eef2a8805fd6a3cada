@@ -1,0 +1,18 @@
+
+msquid:S1764."JCorrect one of the identical sub-expressions on both sides of operator ">"(íÚêìşÿÿÿÿ8ìÈÚÛÚ-
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¶Ş½½ûÿÿÿÿ8×™ƒÜÚ-
+hsquid:S1764/"JCorrect one of the identical sub-expressions on both sides of operator ">"(‘Àèı8†âİÛÚ-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ŒµùÃ8†âİÛÚ-
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(íÚêìşÿÿÿÿ8ˆ¥ÚÛÚ-
+esquid:UselessImportCheck":Remove this unused import 'java.util.stream.DoubleStream'.(óÖĞ©8†âİÛÚ-
+>squid:S2129	" Remove this "String" constructor(éöÍë8  ÇÛÚ-
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Üı©Æ8„˜ÏÛÚ-
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¼Ñ˜‘ıÿÿÿÿ8†âİÛÚ-
+>squid:S2129" Remove this "String" constructor(ú÷¯÷8  ÇÛÚ-
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Çµß§úÿÿÿÿ8£ÎÂÛÚ-

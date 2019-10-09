@@ -18,5 +18,7 @@ public class Ejercicio51 {
         for (int i = 0; i <arreglo.size() ; i++) {
             System.out.println(arreglo.get(i));
         }
+
+
     }
 }

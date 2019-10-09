@@ -1,0 +1,19 @@
+
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(åùÊıøÿÿÿÿ8Ì¸ä¸Ú-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ­‹%8ˆıÍÙÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò¦ÏÅ8¾íÛ¸Ú-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8”¼©ÙÚ-
+Xsquid:S2209"5Change this instance-reference to a static reference.(É›Üˆşÿÿÿÿ8ÓúÂÙÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÇÛ8ÒØúÙÚ-
+~squid:UselessImportCheck"NRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Bool'.(™¦èûÿÿÿÿ8è±µÙÚ-
+Gsquid:S1481")Remove this unused "var2" local variable.(í×â¾8çğ´ÙÚ-
+Csquid:S2129" Remove this "Double" constructor(´Ï«§üÿÿÿÿ8”‘¿ÙÚ-
+Ksquid:S1481"(Remove this unused "var" local variable.(¨¨ùıÿÿÿÿ8ûÉ´ÙÚ-
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(™¦èûÿÿÿÿ8è±µÙÚ-
+Vsquid:S1854"8Remove this useless assignment to local variable "var2".(í×â¾8è±µÙÚ-
+bsquid:CallToDeprecatedMethod".Remove this use of "Double"; it is deprecated.(´Ï«§üÿÿÿÿ8”‘¿ÙÚ-

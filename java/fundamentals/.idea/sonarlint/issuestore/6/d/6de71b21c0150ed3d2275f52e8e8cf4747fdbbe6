@@ -1,0 +1,10 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¶ˆàÚ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(èò08“ÃõßÚ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¶ˆàÚ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8“ëêßÚ-
+hsquid:UselessImportCheck"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8š®ŠàÚ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(çç†íıÿÿÿÿ8¨Â°àÚ-
