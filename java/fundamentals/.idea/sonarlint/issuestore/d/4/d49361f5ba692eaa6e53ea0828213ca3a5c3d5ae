@@ -1,20 +1,20 @@
 
-V
-squid:S106
-"9Replace this use of System.out or System.err by a logger.(ÍÃ¶Ú8Ä®×åÚ-
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÖÜî8á…ØåÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(àÙ™8ƒ ÈåÚ-
-[
-squid:S106	"9Replace this use of System.out or System.err by a logger.(£µ‚ÿùÿÿÿÿ8øçÕåÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ç÷‰ê8ÔéÊåÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(†á£8ÔéÊåÚ-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(îŠ«äşÿÿÿÿ8¦ëİåÚ-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ùş¤Ø8¦ëİåÚ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç÷‰ê8ÔéÊåÚ-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(‘¿Â¢8¦ëİåÚ-
+V
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ÍÃ¶Ú8Ä®×åÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(àÙ™8ƒ ÈåÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(†á£8ÔéÊåÚ-
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(£µ‚ÿùÿÿÿÿ8øçÕåÚ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÖÜî8á…ØåÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùş¤Ø8¦ëİåÚ-

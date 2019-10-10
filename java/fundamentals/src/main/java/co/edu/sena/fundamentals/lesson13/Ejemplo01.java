@@ -2,6 +2,8 @@ package co.edu.sena.fundamentals.lesson13;
 
 import java.util.*;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
 
 public class Ejemplo01 {
     public static void main(String[] args) {
@@ -20,7 +22,17 @@ public class Ejemplo01 {
             System.out.println(nombre);
         }
 
+
+        listaNombres.replaceAll(s -> s.toUpperCase());
+
         listaNombres.forEach(x->System.out.println(x));
+
+
+
+
+
+
+
 
 
 

@@ -1,31 +1,31 @@
 
-\squid:UselessImportCheck"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼8œâİÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(òü’ß8—³ÙÜÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(¼³²½8åşûÜÚ-
-Vsquid:S1854*"8Remove this useless assignment to local variable "cola".(Ñæˆ“8…øïàÚ-
-[squid:S1854+"8Remove this useless assignment to local variable "fila".(¾™Ô€ÿÿÿÿÿ8—ĞñàÚ-
-V
-squid:S106#"9Replace this use of System.out or System.err by a logger.(Ğß·Ş8ä‘ßŞÚ-
-Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(Åşøê8èÀùàÚ-
-Xsquid:S1854%":Remove this useless assignment to local variable "lista2".(ü±ñí8÷ëàÚ-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(—ß”Üúÿÿÿÿ8…£õÜÚ-
-[
-squid:S106 "9Replace this use of System.out or System.err by a logger.(÷ôëºøÿÿÿÿ8ÃÌÈŞÚ-
-nsquid:S1149*"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ñæˆ“8…øïàÚ-
-Lsquid:S1481+")Remove this unused "fila" local variable.(¾™Ô€ÿÿÿÿÿ8—ĞñàÚ-
 Gsquid:S1481*")Remove this unused "cola" local variable.(Ñæˆ“8…øïàÚ-
 V
 squid:S106""9Replace this use of System.out or System.err by a logger.(§õØœ8Â¹ÛŞÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¼³²½8åşûÜÚ-
+Lsquid:S1481+")Remove this unused "fila" local variable.(¾™Ô€ÿÿÿÿÿ8—ĞñàÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(òü’ß8—³ÙÜÚ-
+\squid:UselessImportCheck"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼8œâİÚ-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(÷ôëºøÿÿÿÿ8ÃÌÈŞÚ-
+Vsquid:S1854*"8Remove this useless assignment to local variable "cola".(Ñæˆ“8…øïàÚ-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ğß·Ş8ä‘ßŞÚ-
+]squid:S1854(":Remove this useless assignment to local variable "lista3".(æÉïôÿÿÿÿÿ8ÁìàÚ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(—ß”Üúÿÿÿÿ8…£õÜÚ-
+nsquid:S1149*"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ñæˆ“8…øïàÚ-
+[squid:S1854+"8Remove this useless assignment to local variable "fila".(¾™Ô€ÿÿÿÿÿ8—ĞñàÚ-
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(Åşøê8èÀùàÚ-
+Xsquid:S1854%":Remove this useless assignment to local variable "lista2".(ü±ñí8÷ëàÚ-
 [squid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(Õ‹É8ëÆÛÜÚ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(£¢¸÷8äÄ‡İÚ-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(°Ô§ñıÿÿÿÿ8äÈÓÜÚ-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(£¢¸÷8äÄ‡İÚ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(›—½õ8•ß•İÚ-
 Isquid:S1481%"+Remove this unused "lista2" local variable.(ü±ñí8÷ëàÚ-
 Nsquid:S1481("+Remove this unused "lista3" local variable.(æÉïôÿÿÿÿÿ8ÁìàÚ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(›—½õ8•ß•İÚ-
-]squid:S1854(":Remove this useless assignment to local variable "lista3".(æÉïôÿÿÿÿÿ8ÁìàÚ-
