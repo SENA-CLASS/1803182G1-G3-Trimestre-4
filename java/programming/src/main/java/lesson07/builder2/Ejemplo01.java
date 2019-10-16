@@ -75,7 +75,7 @@ public class Ejemplo01 {
 
 
         Empleado[] empleados = {
-                 new Empleado("Jason", "Red", 5000, "TI"),
+                 new Empleado("Luke", "Red", 5000, "TI"),
                  new Empleado("Ashley", "Green", 7600, "TI"),
                  new Empleado("Matthew", "Indigo", 3587.5, "Ventas"),
                  new Empleado("James", "Indigo", 4700.77, "Marketing"),
@@ -93,6 +93,8 @@ public class Ejemplo01 {
                          .thenComparing(Empleado::getNombre)
                          .thenComparing(Empleado::getColor))
          .forEach(x->System.out.println(x.toString()));
+
+
 
 
 
