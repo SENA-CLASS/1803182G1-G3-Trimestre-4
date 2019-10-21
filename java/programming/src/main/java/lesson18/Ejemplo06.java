@@ -32,7 +32,7 @@ public class Ejemplo06 {
                 System.out.println(estado);
             }
 
-            System.out.println("se hizo la consulta");
+
 
         } catch (SQLException e) {
             e.printStackTrace();

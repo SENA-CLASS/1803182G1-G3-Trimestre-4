@@ -17,9 +17,9 @@ public class Ejemplo07 {
             conexion = DriverManager.getConnection(urlPosgres,info);
             System.out.println("se extablecio la conexión");
 
-            sentencia = conexion.prepareStatement("INSERT INTO public.tipo_documento(\n" +
-                    "\tsigla, nombre_documento, estado)\n" +
-                    "\tVALUES (?, ?, ?);");
+            sentencia = conexion.prepareStatement("INSERT INTO public.tipo_documento(" +
+                    "sigla, nombre_documento, estado)\n" +
+                    "VALUES (?, ?, ?);");
             sentencia.setString(1,"NIT");
             sentencia.setString(2,"numero");
             sentencia.setString(3,"activo");
