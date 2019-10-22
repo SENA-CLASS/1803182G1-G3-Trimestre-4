@@ -4,22 +4,12 @@ import co.edu.sena.dao.modelo.dao.TipoDocumentoDAO;
 import co.edu.sena.dao.modelo.dto.TipoDocumentoDTO;
 import co.edu.sena.dao.modelo.factory.TipoDocumentoDAOFactory;
 import co.edu.sena.dao.modelo.factory.postgres.PostgresTipoDocuentoDAOFactory;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class PostgresTipoDocumentoDAOTest {
-
-    @org.junit.jupiter.api.BeforeEach
-    void setUp() {
-    }
-
-    @org.junit.jupiter.api.AfterEach
-    void tearDown() {
-    }
 
     @org.junit.jupiter.api.Test
     @Order(1)

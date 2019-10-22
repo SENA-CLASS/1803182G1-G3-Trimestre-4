@@ -46,6 +46,12 @@ public class PostgresTipoDocumentoDAO implements TipoDocumentoDAO {
         return resultado;
     }
 
+    /**
+     * metodo para actulziar la tabla tipo de documento
+     * @param tipoDocumentoDTO datos a actualizat
+     * @param primaryKey llave primaria por la cual se consulta
+     * @return numero de regisros actualizados
+     */
     @Override
     public int update(TipoDocumentoDTO tipoDocumentoDTO, String primaryKey) {
         int resultado=0;
@@ -70,6 +76,11 @@ public class PostgresTipoDocumentoDAO implements TipoDocumentoDAO {
         return resultado;
     }
 
+    /**
+     * metodo que permite eliminar un registro de la tabla
+     * @param primaryKey llave primaria de la tabla
+     * @return numero de registros eliminados
+     */
     @Override
     public int delete(String primaryKey) {
         int resultado=0;
@@ -90,6 +101,10 @@ public class PostgresTipoDocumentoDAO implements TipoDocumentoDAO {
         return resultado;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public Collection<TipoDocumentoDTO> findAll() {
         String sql = "SELECT sigla, nombre, estado " +
@@ -121,6 +136,11 @@ public class PostgresTipoDocumentoDAO implements TipoDocumentoDAO {
         return lista;
     }
 
+    /**
+     *
+     * @param primaryKey
+     * @return
+     */
     @Override
     public TipoDocumentoDTO findPk(String primaryKey) {
         String sql = "SELECT sigla, nombre, estado " +
