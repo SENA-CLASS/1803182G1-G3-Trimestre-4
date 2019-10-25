@@ -6,6 +6,7 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "user", schema = "horarios")
@@ -51,12 +52,12 @@ public class User implements Serializable {
     @Column(name = "reset_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date resetDate;
-    @JoinTable(name = "user_authority", joinColumns = {
+    @JoinTable(name = "user_authority",schema = "horarios", joinColumns = {
             @JoinColumn(name = "id_user", referencedColumnName = "id", foreignKey = @ForeignKey(name = "fk_user"))},
             inverseJoinColumns = {
                     @JoinColumn(name = "name_rol", referencedColumnName = "name", foreignKey = @ForeignKey(name = "fk_authority"))})
     @ManyToMany(fetch = FetchType.LAZY)
-    private List<Authority> authorityList;
+    private Set<Authority> authorityList;
 
 
 }

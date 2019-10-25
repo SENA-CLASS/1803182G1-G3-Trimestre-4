@@ -6,6 +6,7 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(schema = "horarios", name = "authority")
@@ -18,7 +19,7 @@ public class Authority implements Serializable {
     @Column(name = "name")
     private String name;
     @ManyToMany(mappedBy = "authorityList", fetch = FetchType.LAZY)
-    private List<User> userList;
+    private Set<User> userList;
 
 
 
