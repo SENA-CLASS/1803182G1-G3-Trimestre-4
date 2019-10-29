@@ -8,7 +8,10 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Entity
-@Table(schema = "horarios", name = "cliente")
+@Table(schema = "horarios", name = "cliente", uniqueConstraints = @UniqueConstraint(
+        name = "uk_cliente", columnNames = {"numero_documento","id_tipo_documento"}
+
+))
 public class Cliente implements Serializable {
     private static final long serialVersionUID = 56L;
     @Id

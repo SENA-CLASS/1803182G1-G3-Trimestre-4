@@ -91,5 +91,6 @@ public class Authority implements Serializable {
     public String toString() {
         return "co.edu.sena.horarios.model.entities.Authority[ name=" + name + " ]";
     }
-    
+
+
 }
