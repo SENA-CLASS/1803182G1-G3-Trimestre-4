@@ -3,7 +3,6 @@ package co.edu.sena.horariossurogate.web.rest;
 
 import co.edu.sena.horariossurogate.domain.TipoDocumento;
 import co.edu.sena.horariossurogate.repository.TipoDocumentoRepository;
-import com.sun.org.apache.bcel.internal.generic.ATHROW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -13,9 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ejemplo</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<start-class>co.edu.sena.horariossurogate.MapeoSurrogateApplication</start-class>
 	</properties>
 
 	<dependencies>
