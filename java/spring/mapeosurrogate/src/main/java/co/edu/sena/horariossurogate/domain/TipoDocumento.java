@@ -1,5 +1,7 @@
 package co.edu.sena.horariossurogate.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
@@ -27,6 +29,7 @@ public class TipoDocumento implements Serializable {
     @Column(name = "estado_tipo_documento", length = 40)
     private String estadoTipoDocumento;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "tipoDocumento")
     private List<Cliente> clienteList;
 
