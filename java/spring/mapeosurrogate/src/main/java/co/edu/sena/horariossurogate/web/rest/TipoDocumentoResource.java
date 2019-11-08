@@ -39,6 +39,14 @@ public class TipoDocumentoResource {
         return ResponseEntity.ok().body(query.isPresent() ? query.get():null);
     }
 
+
+    @GetMapping("/tipo-documentos/sigla-like")
+    public ResponseEntity<List<TipoDocumento>> getSiglaTipoDocumentoLike(@RequestParam(name = "like") String like) {
+        List<TipoDocumento> query = tipoDocumentoRepository.findBySiglaLike(like);
+        return ResponseEntity.ok().body(query);
+    }
+
+
     @PostMapping("/tipo-documentos")
     public ResponseEntity<TipoDocumento> createTipoDocumento(@Valid @RequestBody TipoDocumento tipoDocumento) throws URISyntaxException {
         if (tipoDocumento.getId() != null) {
